@@ -1,9 +1,9 @@
 import React from 'react'
 
 export const Collage = (props) => {
-    const { large, original, horizontal, square} = props
+    const { large, original, horizontal, square, width, height } = props
     return (
-      <svg width='50%' height='50%' viewBox='0 0 492 503' fill='none' xmlns='http://www.w3.org/2000/svg' xmlnsXlink='http://www.w3.org/1999/xlink'>
+      <svg width={width} height={height} viewBox='0 0 492 503' fill='none' xmlns='http://www.w3.org/2000/svg' xmlnsXlink='http://www.w3.org/1999/xlink'>
         <g filter='url(#filter0_d)'>
           <rect x='4' width='323' height='231' fill='url(#pattern01)' />
         </g>
